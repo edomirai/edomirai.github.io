@@ -184,7 +184,7 @@ ul#nav li.active a { color: #11ABB0; }
 /* ================================================================== */
 
 #intro {
-   background: #111 url(../images/stocks/AdobeStock_82298096_Preview.jpeg) no-repeat center;
+   background: #111 url(../images/stocks/AdobeStock_82298096_Preview_2.jpeg) no-repeat center;
    overflow: hidden;
 }
 
@@ -193,14 +193,21 @@ ul#nav li.active a { color: #11ABB0; }
    max-height: 660px;
    overflow: hidden;
 }
+.slider-logo {
+   text-align: center;
+   margin-top: 90px;
+}
+.slider-logo img {
+   width: 15%;
+}
 .slider-text {
 	color: #737E8C;
    text-align: center;
    width: 85%;
-   margin: 156px auto 66px auto;
+   margin: 20px auto 66px auto;
 }
 .slider-text h2 {
-   font: 56px/78px montserrat-regular, Sans-serif;
+   font: 38px montserrat-regular, Sans-serif;
    color: #fff;
    text-shadow: 0px 1px 5px rgba(50, 50, 50, .5);
    padding: 0;
@@ -1211,7 +1218,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
    /* intro section
    -------------------------------------------------------------------- */
-   .slider-text h2 { font: 48px/66px montserrat-regular, Sans-serif; }
+   .slider-text h2 { font: 24px montserrat-regular, Sans-serif; }
 
    /* services section
    -------------------------------------------------------------------- */
@@ -1364,11 +1371,14 @@ footer .social-links li:first-child { margin-left: 0; }
 
     /* intro section
    -------------------------------------------------------------------- */
-   .slider-text { margin-top: 120px; margin-bottom: 48px; }
-   .slider-text h2 { font: 43px/54px montserrat-regular, sans-serif; }
+   .slider-text { margin-top: 40px; margin-bottom: 48px; }
+   .slider-text h2 { font: 24px montserrat-regular, sans-serif; }
    .slider-text p {
       font: 14px/30px opensans-regular, sans-serif;
       margin-top: 30px;
+   }
+   .slider-logo img{
+     width:30%;
    }
    .slides {
       overflow: hidden;
@@ -1589,11 +1599,11 @@ footer .social-links li:first-child { margin-left: 0; }
 
    /* intro section
    ------------------------------------------------------------------------- */
-   .slider-text { margin-top: 108px; margin-bottom: 36px; }
-   .slider-text h2 { font: 32px/42px montserrat-regular, sans-serif; }
+   .slider-text { margin-top: 20px; margin-bottom: 36px; }
+   .slider-text h2 { font: 20px montserrat-regular, sans-serif; }
    .slider-text p {
-      font: 12px/24px opensans-regular, sans-serif;
-      margin-top: 24px;
+      font: 14px opensans-regular, sans-serif;
+      margin-top: 15px;
    }
 
     /* journal section
@@ -1604,6 +1614,3 @@ footer .social-links li:first-child { margin-left: 0; }
    }
 
 }
-
-
-
