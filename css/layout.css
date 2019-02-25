@@ -109,12 +109,16 @@ header .logo a {
    padding: 0;
    margin: 0;
    height: 18px;
-   width: 91px;
+   width: 100%;
    line-height: 18px;
 
    position: absolute;
-   left: 12px;
-   top: 16px;
+   left: 0px;
+   top: 3px;
+}
+
+header .logo img {
+ width: 90%;
 }
 
 /* primary navigation
@@ -184,7 +188,7 @@ ul#nav li.active a { color: #11ABB0; }
 /* ================================================================== */
 
 #intro {
-   background: #111 url(../images/stocks/AdobeStock_82298096_Preview_2.jpeg) no-repeat center;
+   background: #111 url(../images/stocks/AdobeStock_82298096_Preview_2.jpg) no-repeat center;
    overflow: hidden;
 }
 
@@ -198,7 +202,7 @@ ul#nav li.active a { color: #11ABB0; }
    margin-top: 90px;
 }
 .slider-logo img {
-   width: 15%;
+   width: 20%;
 }
 .slider-text {
 	color: #737E8C;
@@ -1294,7 +1298,7 @@ footer .social-links li:first-child { margin-left: 0; }
    -------------------------------------------------------------------- */
 
    header.mobile { height: 66px; }
-   header.mobile .logo a { top: 22px; }
+   header.mobile .logo a { top: 6px; }
 
    .mobile #nav-wrap {
       position: absolute;
