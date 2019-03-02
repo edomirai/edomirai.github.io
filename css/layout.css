@@ -114,11 +114,11 @@ header .logo a {
 
    position: absolute;
    left: 0px;
-   top: 3px;
+   top: 10px;
 }
 
 header .logo img {
- width: 90%;
+   width: 90%;
 }
 
 /* primary navigation
@@ -199,7 +199,7 @@ ul#nav li.active a { color: #11ABB0; }
 }
 .slider-logo {
    text-align: center;
-   margin-top: 90px;
+   margin-top: 68px;
 }
 .slider-logo img {
    width: 20%;
@@ -1298,7 +1298,7 @@ footer .social-links li:first-child { margin-left: 0; }
    -------------------------------------------------------------------- */
 
    header.mobile { height: 66px; }
-   header.mobile .logo a { top: 6px; }
+   header.mobile .logo a { top: 15px; }
 
    .mobile #nav-wrap {
       position: absolute;
